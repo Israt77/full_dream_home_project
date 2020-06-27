@@ -1,0 +1,235 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+/*heading start*/
+header{
+     background-color:white;
+     padding:10px 0;
+} 
+.wrapper {
+	overflow: hidden;
+	margin: 0 auto;
+	width:90%;
+	/*border: 1px solid red;*/
+}
+
+.logo {
+	/*border: 1px solid red;*/
+	width:17%;
+	float:left;
+}
+.logo img{
+      width: 100%;
+}
+.menu {
+	/**border: 1px solid red;*/
+	width: 70%;
+	float: right;
+}
+ .menu ul {
+ 	float: right;
+ }
+.menu ul li{ 
+	list-style: none;
+	float: left;
+ }
+ .menu ul li a{ 
+ 	font-family: sans-serif;
+	font-weight: 400;
+	font-size: 15px;
+	color:#808080;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	display: inline-block;
+	transition: .3s;
+}
+.menu ul li a:hover{
+	color: #0078BD;
+}
+.menu ul li:last-child a{
+	padding-right: 0
+}
+/*header end*/
+/*banner start*/
+.banner{
+	background-image: url(../images/dream_house.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    min-height: 550px;
+}
+.b_content{
+	width: 320px;
+	height: 250px;
+	/*border: 1px solid red;*/
+	margin-top: 50px;
+	margin-bottom:30px;
+	padding: 20px;
+	background-color: rgba(11,11,11,.5);
+}
+.b_content h1{
+	font-family:sans-serif;
+	font-weight:400;
+	font-size:28px;
+	color:white;
+	text-transform:uppercase;
+	margin :0;
+	padding: 10px;
+}
+.b_content h2{
+font-family:sans-serif; 
+/*font-weight:700;*/
+font-size:32px;
+color:white;
+text-transform:uppercase;
+margin: 0;
+padding: 10px;
+line-height: 25px;
+}
+.b_content p{
+	font-family:sans-serif; 
+	color:white;
+	margin:0;
+	padding: 10px;
+	line-height:25px;
+}
+.b_content button{
+	width: 118px;
+    height: 53px;
+    margin-top: 2px;
+    padding: 10px 5px 10px;
+    font-family: sans-serif;
+    /* font-weight: 400; */
+    font-size: 10px;
+    line-height: 15px;
+    color: white;
+    text-transform: uppercase;
+    background-color: rgba(11,11,11,.5);
+    border: 0;
+    margin-left: 10px;
+    border-radius: 3px;
+    display: inline-block;
+    text-align: center;
+}
+.b_content h6:focus{
+    outline: 2;
+}
+/*banner end*/
+/*service start*/
+.service{
+   background-color: white;
+	padding:30px 0 30px;
+}
+.single{
+	width: 28%;
+	margin-right: 27px;
+	padding: 20px 15px 30px;
+	border:1px solid white;
+	float: left;
+}
+.top{
+	overflow: hidden;
+}
+.text{
+	width: 350px;
+	/*border: 1px solid red;*/
+	margin-top: 12px;
+	float: left;
+}
+.text h1{
+	font-family: sans-serif;
+	font-weight:400;
+	font-size:20px;
+	color: #D3D3D3;
+	margin:0;
+	padding: 20px;
+	text-align:  center;
+}
+.img{
+	width: 350px;
+	/*border: 1px solid red;*/
+}
+.img img{
+	width: 100%;
+}
+.bottom{
+	margin-top: 20px;
+	text-align: center;
+}
+.bottom p{
+	font-family: sans-serif;
+	font-weight:700;
+	font-size:15px;
+	color:#808080;
+	margin:0;
+	line-height: 25px;
+}
+.bottom button{
+	width:50px; 
+	height:30px;
+	margin: 0 auto; 
+	margin-top:40px;
+	padding: 0 10px;
+	font-family:sans-serif;
+	/*font-weight:400;*/
+	font-size:10px;
+	line-height: 30px;
+	color:white;
+	text-transform:uppercase;
+	background-color: #47627F;
+	/*border: 1px solid red;*/
+	text-align: center;
+	
+}
+/*service end*/
+/*footer start*/
+.f_top {
+	margin: 0;
+	padding: 0;
+}
+.f_top h5{
+	height:20px;
+	display: flex;
+	background: white;
+	justify-content: center;
+	align-items: center;
+	color: #808080;
+}
+.f_top h6{
+	height:20px;
+	display: flex;
+	background: white;
+	justify-content: center;
+	align-items: center;
+	color: #808080;
+}
+.icon {
+	margin: 0;
+	padding: 0;
+	height:100px;
+	display: flex;
+	background: white;
+	justify-content: center;
+	align-items: center;
+}
+.icon i{
+	width:40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 50%;
+}
+i.fa-facebook-official{
+	color: #3b5998;
+}
+i.fa-twitter{
+	color: #00acee;
+}
+i.fa-google-plus-official{
+	color: #DB4A39;
+}
+i.fa-rss{
+	color: #FF9900;
+}
+/*footer end*/
